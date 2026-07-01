@@ -80,7 +80,7 @@ log "创建 systemd 服务..."
 cat > /tmp/sinexus-data.service << SERVEOF
 [Unit]
 Description=Sinexus Data - Document Knowledge Base
-Documentation=https://github.com/YOUR_USER/sinexus-data
+Documentation=https://github.com/xiangzhangcnwh-bot/sinexus-data
 After=network.target
 
 [Service]
